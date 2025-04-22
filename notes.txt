@@ -4,3 +4,11 @@ Database side of things:
     *Change time period as needed
 
     After the hymns are all selected, create a new entry for the history 
+
+
+Potential sq query:
+SELECT *
+FROM hymns
+WHERE order = 1
+ORDER BY RAND()
+LIMIT 1;
