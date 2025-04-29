@@ -1,0 +1,2 @@
+This include file is for th MySQl C++ connector 
+Version: 9.3
